@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang=en-us>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="googlebot" content="noindex, nofollow">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var target_url = window.location.href.split('=')[1];
+            if (target_url == null) {
+                window.location.replace('https://pixabay.com/');
+            } else {
+                window.location.replace(decodeURIComponent(target_url));
+            }
+        </script>
+    </body>
+</html>
